@@ -8,7 +8,7 @@ def hopper
 
 :known_for => "COBOL",
 
-
+}
 
 end
 
@@ -29,7 +29,7 @@ programmer_hash =
 
 :known_for => "COBOL",
 
-
+}
 
 end
 
@@ -97,5 +97,5 @@ programmer_hash =
 
 :grace_hopper => {
 
-:known_for => "COBOL",
+:known_for => "COBOL",}
 end 
