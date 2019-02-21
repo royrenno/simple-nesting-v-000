@@ -6,7 +6,7 @@ programmer_hash =
 					:languages => ["COBOL","FORTRAN"]
  }
 }
-programmer_hash[:grace_hopper]
+return programmer_hash[:grace_hopper]
 end
 def alan_kay_is_known_for
 # What combination of keys would you use to return the value of the :known_for key of :alan_kay?
@@ -26,10 +26,11 @@ programmer_hash =
  		{
         :grace_hopper => {
           :known_for => "COBOL",
+					
           :languages => ["C"]
         }
      }
- programmer_hash[:dennis_ritchie][:languages] = ["C"],
+ return programmer_hash[:dennis_ritchie][:languages] = [0],
 def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
