@@ -31,7 +31,7 @@ programmer_hash =
           :languages => ["C"]
         }
      }
- return programmer_hash[:dennis_ritchie][:languages][0],
+ return programmer_hash[:dennis_ritchie][:languages],
 def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
