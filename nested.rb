@@ -17,7 +17,7 @@ programmer_hash =
           :languages => ["C"]
         }
      }
- programmer_hash[:alan_kay][:known_for]
+ programmer_hash[:alan_kay]
 end
 def dennis_ritchies_language
 programmer_hash =
