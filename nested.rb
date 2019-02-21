@@ -21,7 +21,7 @@ def alan_kay_is_known_for
 
 
 
-:languages => ["C"]
+:languages => ["C"],
 
 }
 
@@ -102,6 +102,10 @@ programmer_hash
 end
 
 def adding_to_dennis
+	programmer_hash =
+	{
+		:grace_hopper =>{
+			:known_for => "COBOL"
 
 
 
